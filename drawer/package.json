@@ -1,0 +1,33 @@
+{
+  "name": "drawer",
+  "description": "A content drawer that opens and closes.",
+  "version": "1.0.0",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "app.js",
+        "type": "oc-template-react"
+      }
+    },
+    "parameters": {
+      "title": {
+        "default": "Drawer Title",
+        "description": "Name of content drawer",
+        "example": "View Settings",
+        "mandatory": false,
+        "type": "string"
+      },
+      "visible": {
+        "default": true,
+        "description": "Show or hide the element",
+        "example": false,
+        "mandatory": false,
+        "type": "boolean"
+      }
+    }
+  },
+  "devDependencies": {
+    "oc-template-react-compiler": "5.1.4"
+  }
+}

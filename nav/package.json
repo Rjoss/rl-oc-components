@@ -1,0 +1,65 @@
+{
+  "name": "nav",
+  "description": "",
+  "version": "1.0.0",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "static": [
+        "img",
+        "css"
+      ],
+      "template": {
+        "src": "view.js",
+        "type": "oc-template-es6"
+      }
+    },
+    "parameters": {
+      "primary_title": {
+        "default": "Primary",
+        "description": "Drawer Title",
+        "example": "Settings",
+        "mandatory": false,
+        "type": "string"
+      },
+      "primary_visible": {
+        "default": true,
+        "description": "Show Drawer Content",
+        "example": true,
+        "mandatory": false,
+        "type": "boolean"
+      },
+      "secondary_title": {
+        "default": "Secondary",
+        "description": "Drawer Title",
+        "example": "Settings",
+        "mandatory": false,
+        "type": "string"
+      },
+      "secondary_visible": {
+        "default": true,
+        "description": "Show Drawer Content",
+        "example": true,
+        "mandatory": false,
+        "type": "boolean"
+      },
+      "tertiary_title": {
+        "default": "Tertiary",
+        "description": "Drawer Title",
+        "example": "Settings",
+        "mandatory": false,
+        "type": "string"
+      },
+      "tertiary_visible": {
+        "default": true,
+        "description": "Show Drawer Content",
+        "example": true,
+        "mandatory": false,
+        "type": "boolean"
+      }
+    }
+  },
+  "devDependencies": {
+    "oc-template-es6-compiler": "1.1.3"
+  }
+}
